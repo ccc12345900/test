@@ -23,5 +23,8 @@ public class birthdayController {
     {
         return "test";
     }
+    
+    @RequestMapping("/test")
+    public String test(){return "test";}
 
 }
